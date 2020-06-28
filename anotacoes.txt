@@ -1,0 +1,11 @@
+#ferrameta do ef para dotnet CLI
+dotnet tool install --global dotnet-ef
+
+
+
+ 
+#cria classe que estende o migrations com metodo up e down
+dotnet ef migrations add Populadb
+
+#aplicar insert nas tabelas
+dotnet ef database update
