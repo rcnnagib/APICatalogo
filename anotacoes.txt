@@ -1,7 +1,7 @@
 #ferramenta do ef para dotnet CLI
 dotnet tool install --global dotnet-ef
 
-#comando para criaÁ„o classe que estende o migrations com metodo up e down
+#comando para cria√ßa√µ de classes que estende o migrations com metodo up e down
 dotnet ef migrations add Populadb
 
 #aplicar insert nas tabelas
